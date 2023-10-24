@@ -16,10 +16,10 @@ const multer = require('multer');
 
  
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "test",
+    host: "sql12.freesqldatabase.com",
+    user: "sql12656362",
+    password: "D4T7p6LmHr",
+    database: "sql12656362",
 });
 db.connect(function (error) {
     if (error) {
@@ -29,7 +29,7 @@ db.connect(function (error) {
     }
   });
   const ipAddress = '192.168.0.104'
-  server.listen(8085, function check(error) {
+  server.listen(3306, function check(error) {
     if (error) 
     {
     console.log("Error....dddd!!!!");
