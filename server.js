@@ -16,10 +16,10 @@ const multer = require('multer');
 
  
 const db = mysql.createConnection({
-    host: "sql12.freesqldatabase.com",
-    user: "sql12656362",
-    password: "D4T7p6LmHr",
-    database: "sql12656362",
+    host: "database-2.cx7awy9mevwt.eu-north-1.rds.amazonaws.com",
+    user: "root",
+    password: "9975066696",
+    database: "ecommerce",
 });
 db.connect(function (error) {
     if (error) {
